@@ -29,13 +29,13 @@ multi_modal = true
 
 # Allows user to use speech to text
 [features.speech_to_text]
-    enabled = false
-    # See all languages here https://github.com/JamesBrill/react-speech-recognition/blob/HEAD/docs/API.md#language-string
-    # language = "en-US"
+enabled = false
+# See all languages here https://github.com/JamesBrill/react-speech-recognition/blob/HEAD/docs/API.md#language-string
+# language = "en-US"
 
 [UI]
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "Deonna's Chatbot"
 
 # Show the readme while the conversation is empty.
 show_readme_as_default = true
@@ -61,23 +61,23 @@ hide_cot = false
 
 # Override default MUI light theme. (Check theme.ts)
 [UI.theme.light]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+#background = "#FAFAFA"
+#paper = "#FFFFFF"
 
-    [UI.theme.light.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+[UI.theme.light.primary]
+#main = "#F80061"
+#dark = "#980039"
+#light = "#FFE7EB"
 
 # Override default MUI dark theme. (Check theme.ts)
 [UI.theme.dark]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+#background = "#FAFAFA"
+#paper = "#FFFFFF"
 
-    [UI.theme.dark.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+[UI.theme.dark.primary]
+#main = "#F80061"
+#dark = "#980039"
+#light = "#FFE7EB"
 
 
 [meta]
